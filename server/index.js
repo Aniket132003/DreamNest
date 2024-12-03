@@ -21,13 +21,12 @@ app.use("/users", userRoutes)
 
 /* MONGOOSE SETUP */
 const PORT = 3001; 
-const DB = process.env.DB_SECRET;
-
+const DB = process.env.DB_SECRET
 mongoose.connect(DB, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
-  })
+  })jbj
   .catch((err) => console.log(`${err} did not connect`));
