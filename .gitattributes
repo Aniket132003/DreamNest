@@ -1,2 +1,31 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# System files
+.DS_Store
+Thumbs.db 
+desktop.ini 
+
+# IDE/Editor configuration files
+.idea/ 
+.vscode/ 
+
+# Build artifacts
+*.class 
+*.o 
+*.pyc 
+*.dll 
+*.so 
+
+# Package manager folders
+node_modules/ 
+vendor/ 
+bower_components/ 
+
+# Temporary files 
+*.log
+*.cache 
+*.tmp 
+
+# Sensitive data 
+*.env 
+*.password 
