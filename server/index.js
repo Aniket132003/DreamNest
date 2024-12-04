@@ -20,7 +20,7 @@ app.use("/bookings", bookingRoutes)
 app.use("/users", userRoutes)
 
 /* MONGOOSE SETUP */
-const PORT = 3001; 
+const PORT = "https://dream-nest-e8km.vercel.app/"; 
 const DB = process.env.DB_SECRET
 mongoose.connect(DB, {
     useNewUrlParser: true,
