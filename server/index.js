@@ -28,5 +28,5 @@ mongoose.connect(DB, {
 })
   .then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
-  })jbj
+  })
   .catch((err) => console.log(`${err} did not connect`));
